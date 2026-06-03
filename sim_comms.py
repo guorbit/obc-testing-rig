@@ -4,7 +4,7 @@ Implements actual E32 protocol on the Pi Pico acting as the hardware device
 """
 
 from machine import UART, Pin
-from time import ticks_ms
+
 
 # E32 Protocol constants
 E32_UART_PORT = 0  # UART0 on Pi Pico (GP0=TX, GP1=RX)

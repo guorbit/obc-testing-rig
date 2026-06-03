@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MicroPython / device deployment artifacts
+.micropico/
+*.uf2
+*.bin
+*.hex
+
+# VS Code settings and local workspace files
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs and runtime files
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env

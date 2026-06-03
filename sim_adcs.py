@@ -1,5 +1,6 @@
 from machine import I2CTarget, Pin
 
+
 # Response bank
 not_ready_response = b"Adcs not ready"
 nofix_response = b"t00:00:00|N+00.00000|E+000.10000|h+000.00m|f0|c0032.73|b100858|i0|a+002.38-005.52+007.89|q+000.47-000.05-000.34+000.81|m+005.62+025.56-054.1"
